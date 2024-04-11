@@ -9,10 +9,11 @@ public class MathApp {
         int carPrice = 1000;
         int truckPrice = 5000;
         int minPrice = Math.min(carPrice, truckPrice);
-                        System.out.print(minPrice);
+                        System.out.println("The minimum price is " + minPrice);
+
         double circleRadius = 7.25;
-        double circleArea = circleRadius * 9.86;
-                        System.out.println(circleArea);
+        double circleArea = Math.PI * Math.pow(circleRadius, 2);
+                        System.out.println("The area of a circle with a radius of " + circleRadius + " is " + circleArea);
 
 
 
